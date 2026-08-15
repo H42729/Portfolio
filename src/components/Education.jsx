@@ -74,7 +74,7 @@ function Education() {
 
                 <div className="edu-item__card card">
                   <div className="edu-item__header">
-                    <div>
+                    <div className="edu-item__left-header">
                       <span className="edu-item__degree-badge">{item.degree}</span>
                       <h3 id={`${item.id}-heading`} className="edu-item__title">{item.fullName}</h3>
                       <p className="edu-item__institution">{item.institution}</p>
